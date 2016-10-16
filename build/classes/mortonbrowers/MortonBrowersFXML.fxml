@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="635.0" prefWidth="620" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mortonbrowers.MortonBrowersFXMLController">
+    <children>
+        <Label fx:id="titleLabel" layoutX="15.0" layoutY="24.0" minHeight="16" minWidth="69" prefHeight="35.0" prefWidth="255.0" text="Pallette Manifest">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+        <TextField fx:id="routeNum" layoutX="61.0" layoutY="86.0" promptText="Enter Here...." text="410" />
+        <TextField fx:id="stopNum" layoutX="61.0" layoutY="143.0" promptText="Enter Here...." text="5" />
+        <TextField fx:id="caseQuantity" layoutX="61.0" layoutY="257.0" promptText="Enter Here...." text="1570" />
+        <TextField fx:id="trailerPosition" layoutX="61.0" layoutY="200.0" promptText="Enter Here...." text="15-L" />
+        <TextField fx:id="itemDescription" layoutX="61.0" layoutY="314.0" promptText="Enter Here...." text="5" />
+      <Label layoutX="24.0" layoutY="54.0" prefHeight="32.0" prefWidth="122.0" text="Route Number#">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="111.0" prefHeight="32.0" prefWidth="122.0" text="Stop Number #">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="168.0" prefHeight="32.0" prefWidth="159.0" text="Trailer Position ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="225.0" prefHeight="32.0" prefWidth="159.0" text="Case Quantity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+        <Label fx:id="label" alignment="TOP_LEFT" layoutX="268.0" layoutY="54.0" minHeight="16" minWidth="69" prefHeight="411.0" prefWidth="317.0" text="Dilivery Info:">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="282.0" prefHeight="32.0" prefWidth="149.0" text="Item Description">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+        <Button fx:id="button" layoutX="403.0" layoutY="535.0" onAction="#handleButtonAction" prefHeight="64.0" prefWidth="181.0" text="SUBMIT" />
+      <Label layoutX="25.0" layoutY="339.0" prefHeight="32.0" prefWidth="149.0" text="Additional Notes">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="additionalNotes" layoutX="61.0" layoutY="371.0" prefHeight="200.0" prefWidth="200.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in posuere dui. Cum sociis natoque penatibus et magnis dis " wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+       
+    </children>
+</AnchorPane>
